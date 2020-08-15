@@ -16,17 +16,21 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-	<summary lang="en">Watch funny wrestling videos made by Maffew from botchamania.com</summary>
-	<description lang="en">A popular video series on YouTube created by Maffew that highlights humorous, embarrasing and sometimes painful botches in professional wrestling</description>
-	<disclaimer lang="en">For bugs, requests or general questions visit the botchamania.com thread on the XBMC forum.</disclaimer>
-	<summary lang="nl">Bekijk grappige worstel filmpjes gemaakt door Maffew van botchamania.com</summary>
-	<description lang="nl">Bekijk grappige worstel filmpjes van gemaakt door Maffew van botchamania.com</description>
-	<disclaimer lang="nl">Bugs of andere feedback op deze plugin kan geplaatst worden in de botchamania.com thread op het XBMC forum.</disclaimer>
+	<summary lang="en_GB">Watch funny wrestling videos made by Maffew from botchamania.com</summary>
+	<description lang="en_GB">A popular video series on YouTube created by Maffew that highlights humorous, embarrasing and sometimes painful botches in professional wrestling</description>
+	<disclaimer lang="en_GB">For bugs, requests or general questions visit the botchamania.com thread on the XBMC forum.</disclaimer>
+	<summary lang="nl_NL">Bekijk grappige worstel filmpjes gemaakt door Maffew van botchamania.com</summary>
+	<description lang="nl_NL">Bekijk grappige worstel filmpjes van gemaakt door Maffew van botchamania.com</description>
+	<disclaimer lang="nl_NL">Bugs of andere feedback op deze plugin kan geplaatst worden in de botchamania.com thread op het XBMC forum.</disclaimer>
     <language>en</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=203209</forum>
     <website>http://botchamania.com</website>
-    <source>https://github.com/skipmodea1/plugin.video.botchamania.python3"</source>
+    <source>https://github.com/skipmodea1/plugin.video.botchamania.python3</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
