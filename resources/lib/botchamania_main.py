@@ -34,7 +34,7 @@ class Main(object):
                       "url": "http://botchamania.com/category/botchamania/", "next_page_possible": "False"}
         url = self.plugin_url + '?' + urllib.parse.urlencode(parameters)
         list_item = xbmcgui.ListItem(LANGUAGE(30001))
-        thumbnail_url = os.path.join(IMAGES_PATH, 'next-page.png')
+        thumbnail_url = 'DefaultFolder.png'
         list_item.setArt({'thumb': thumbnail_url, 'icon': thumbnail_url,
                           'fanart': os.path.join(IMAGES_PATH, 'fanart-blur.jpg')})
         is_folder = True
