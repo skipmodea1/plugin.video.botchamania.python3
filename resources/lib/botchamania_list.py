@@ -15,7 +15,7 @@ import urllib.request, urllib.parse, urllib.error
 import xbmcgui
 import xbmcplugin
 
-from botchamania_const import LANGUAGE, IMAGES_PATH, ADDON, convertToUnicodeString, log, getSoup
+from resources.lib.botchamania_const import LANGUAGE, IMAGES_PATH, ADDON, convertToUnicodeString, log, getSoup
 
 
 #

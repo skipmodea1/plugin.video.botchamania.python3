@@ -13,7 +13,7 @@ import xbmcgui
 import xbmcplugin
 import os
 
-from botchamania_const import LANGUAGE, IMAGES_PATH
+from resources.lib.botchamania_const import LANGUAGE, IMAGES_PATH
 
 
 #

@@ -17,7 +17,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from botchamania_const import LANGUAGE, SETTINGS, convertToUnicodeString, log, getSoup
+from resources.lib.botchamania_const import LANGUAGE, SETTINGS, convertToUnicodeString, log, getSoup
 
 #
 # Main class
